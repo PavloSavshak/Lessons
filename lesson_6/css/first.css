@@ -1,0 +1,91 @@
+/* ------------------------ */
+/* ----- Reset Styles ----- */
+/* ------------------------ */
+
+@import url("reset.css");
+
+/* ------------------------ */
+/* -------- Fonts --------- */
+/* ------------------------ */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+/* ------------------------ */
+/* ------ Main Styles ----- */
+/* ------------------------ */
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78571429;
+	color: #6C757D;
+}
+
+[class*="__container"]{
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+[class*="__text-block"]{
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+/* ------------------------ */
+
+.article__text-block {
+	margin-bottom: 80px;
+}
+
+.article__title {
+	max-width: 400px;
+	font-size: 25px;
+	line-height: 1.6;
+	font-weight: 700;
+	color: #212529;
+	margin-bottom: 40px;
+}
+
+.big-title {
+	max-width: 605px;
+}
+
+.article__text p {
+	margin-bottom: 30px;
+}
+
+.article__images {
+	font-size: 0;
+	margin-bottom: 80px;
+}
+.article__image {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+.first-image {
+	margin-right: 30px;
+}
+
+.footer__text-block {
+	padding: 25px 0;
+	text-align: center;
+}
+.options {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #212529;
+}
+.option {
+	display: inline-block;
+	border: 2px solid #212529;
+	border-radius: 25px;
+	min-width: 200px;
+	box-shadow: 2px 2px 20px #6C757D;
+}
+.first-option {
+	margin-right: 100px;
+}
